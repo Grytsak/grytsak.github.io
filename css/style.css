@@ -740,6 +740,10 @@ select:-webkit-autofill:focus {
 	appearance: none;
 }
 
+.contacts_form_btn:focus {
+	outline: none;
+}
+
 .contacts_form_btn:hover {
 	color: #2ecc71;
 }
