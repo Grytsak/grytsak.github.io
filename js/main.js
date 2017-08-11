@@ -54,7 +54,7 @@ $(document).ready(function(){
 
 // Portfolio background images
 $.each($('.portfolio_item'), function(index, value) {
-	$(this).css('backgroundImage', 'url("img/bg_' + (index + 1) + '.jpg")');
+	$(this).css('backgroundImage', 'url("https://grytsak.github.io/img/bg_' + (index + 1) + '.jpg")');
 });
 
 
