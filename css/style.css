@@ -317,8 +317,9 @@ nav {
 .html {width: 80%; background-color: #2ecc71;} 
 .js {width: 60%; background-color: #2ecc71;} 
 .jquery {width: 60%; background-color: #2ecc71;} 
-.wp {width: 65%; background-color: #2ecc71;} 
-.eng {width: 70%; background-color: #2ecc71;} 
+.wp {width: 65%; background-color: #2ecc71;}
+.angular {width: 50%; background-color: #2ecc71;}
+.eng {width: 75%; background-color: #2ecc71;} 
 
 /* ***************** SKILLS END ************************/
 
