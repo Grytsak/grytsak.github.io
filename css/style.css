@@ -278,7 +278,7 @@ nav {
 	font-family: 'RobotoBold';
 	font-size: 30px;
 	font-weight: 700;
-	margin-bottom: 50px;
+	margin-bottom: 25px;
 	text-transform: uppercase;
 }
 
@@ -286,8 +286,8 @@ nav {
 	color: #919191;
 	font-family: 'RobotoRegular';
 	font-size: 18px;
-	line-height: 30px;
-	margin-bottom: 20px;
+	line-height: 34px;
+	margin-bottom: 25px;
 }
 
 .skills_content p:last-of-type { margin-bottom: 0; }
