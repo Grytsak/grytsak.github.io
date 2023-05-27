@@ -1,0 +1,35 @@
+@use '../helpers/variables' as *;
+
+.tech {
+    margin: 200px 0;
+
+
+    .tech__container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+
+    .tech__tech_stack_container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 1200px;
+        width: 100%;
+        box-sizing: border-box;
+        margin: 140px -35px 0;
+        padding: 0 15px;
+    }
+
+    .tech__img {
+        display: block;
+        max-width: 150px;
+        width: 100%;
+        margin: 20px;
+    }
+}

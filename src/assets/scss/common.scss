@@ -1,0 +1,42 @@
+@use './helpers/variables.scss' as *;
+@use '../../../node_modules/reset-css/sass/reset';
+
+body {
+    background-color: $main-bg;
+    user-select: none;
+}
+
+.fixed-position {
+    position: fixed;
+}
+
+.main-title {
+    width: 100%;
+    color: $secondary-grey;
+    font-family: $poppins;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.main-subtitle {
+    width: 100%;
+    color: $main-grey;
+    font-family: $poppins;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+}
+
+@media screen and (max-width:500px) {
+    .main-title {
+        font-size: 42px;
+    }
+
+    .main-subtitle {
+        font-size: 28px;
+    }
+}
